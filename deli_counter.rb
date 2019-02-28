@@ -7,10 +7,9 @@ def line
   else
     current_string.push(":")
     counter = 0
-    until counter == katz_deli.length - 1
+    until counter == katz_deli.length
       current_string.push(" #{counter + 1}. #{katz_deli[counter]},")
       counter += 1
-    current_string.push(" #{katz_deli.length}. #{katz_deli[katz_deli.length - 1]}.")
 end
 
 def take_a_number(array, newbie)
