@@ -11,5 +11,6 @@ def line(deli)
       current_string += " #{counter + 1}. #{deli[counter]},"
       counter += 1
     end
+    puts current_string
   end
 end
