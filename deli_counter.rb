@@ -1,14 +1,14 @@
 katz_deli = []
 
-def line
+def line(deli)
   current_string = "The line is currently"
-  if katz_deli.length == 0
+  if deli.length == 0
     current_string.push(" empty.")
   else
     current_string.push(":")
     counter = 0
-    until counter == katz_deli.length
-      current_string.push(" #{counter + 1}. #{katz_deli[counter]},")
+    until counter == deli.length
+      current_string.push(" #{counter + 1}. #{deli[counter]},")
       counter += 1
 end
 
