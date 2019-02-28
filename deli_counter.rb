@@ -4,7 +4,7 @@ def line(deli)
   current_string = "The line is currently"
   if deli.length == 0
     puts current_string + " empty."
-      else
+  else
     current_string += (":")
     counter = 0
     until counter == deli.length
