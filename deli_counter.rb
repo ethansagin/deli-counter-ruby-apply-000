@@ -11,6 +11,7 @@ def line(deli)
       current_string.push(" #{counter + 1}. #{deli[counter]},")
       counter += 1
     end
+  end
 end
 
 
