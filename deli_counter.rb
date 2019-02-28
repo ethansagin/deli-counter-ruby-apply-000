@@ -8,7 +8,7 @@ def line(deli)
     current_string += (":")
     counter = 0
     until counter == deli.length
-      current_string += " #{counter + 1}. #{deli[counter]},")
+      current_string += " #{counter + 1}. #{deli[counter]},"
       counter += 1
     end
   end
