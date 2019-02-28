@@ -17,5 +17,5 @@ end
 
 def take_a_number(array, name)
   array.push(name)
-  puts
+  puts "#{name}, you are number #{array.length} in line."
 end
