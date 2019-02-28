@@ -14,3 +14,8 @@ def line(deli)
     puts current_string
   end
 end
+
+def take_a_number(array, name)
+  array.push(name)
+  puts
+end
